@@ -220,16 +220,17 @@ border: 0px solid white;
 
 .pricing-cards{
     background-color: #F6F7F9;
-    padding: 40px 100px 20px 100px;
-    margin: 10px;
+    padding: 40px 100px 5px 100px;
+    margin-left: 10px;
 }
 .course-learners{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    
 }
 .course-learners h1{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     padding-bottom: 3px;
     
@@ -271,7 +272,7 @@ background-color: #2A2B3F;
 .course-price-detail__1{
     border: 1px solid white;
         box-shadow: 0 1px 4px rgba(150, 148, 148, 0.5);
-        width: 320px;
+        width: 312px;
         border-radius: 10px;
 
 }
