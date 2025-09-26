@@ -19,6 +19,6 @@ A practice project to strengthen **HTML & CSS fundamentals** by cloning a real-w
 
 ## 🌐 Live Demo
 You can view the **Udemy Clone site** here:  
-👉 [Live Demo](https://your-link-here.com)
+👉 https://hazeemmohamed.github.io/udemy-clone/
 
 Thank you!
