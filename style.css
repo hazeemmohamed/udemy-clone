@@ -114,7 +114,7 @@ cursor: pointer;
 .advert{
  padding-left: 90px;
     padding-right: 90px;
-    padding-top: 30px;
+    padding-top: 3px;
 
     
 }
@@ -138,6 +138,7 @@ cursor: pointer;
 .course-card{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .course-card__1{
@@ -224,6 +225,7 @@ border: 0px solid white;
 .course-learners{
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .course-learners h1{
     font-size: 15px;
@@ -262,12 +264,13 @@ background-color: #2A2B3F;
     margin-top: 30px;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 
 }
 .course-price-detail__1{
     border: 1px solid white;
         box-shadow: 0 1px 4px rgba(150, 148, 148, 0.5);
-        width: 400px;
+        width: 320px;
         border-radius: 10px;
 
 }
@@ -313,6 +316,7 @@ background-color: #2A2B3F;
     flex-grow: 1;
     align-items: center;
     padding-left: 100px;
+    flex-wrap: wrap;
 }
 .skill-trend__left{
     width: 270px;
@@ -341,6 +345,7 @@ height: 600px;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid;
+    flex-wrap: wrap;
 
 }
 .footer__one__1 p{
@@ -377,6 +382,7 @@ font-size: 20px;
     display: flex;
     flex-grow: 1;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 
 }
 .footer__two__1 h1{
@@ -396,6 +402,7 @@ font-size: 20px;
 .footer__two__2{
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
 
 }
 
@@ -407,6 +414,7 @@ font-size: 20px;
     border-bottom: 1px solid;
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
     
 
 }
@@ -442,12 +450,14 @@ font-size: 20px;
     padding-right: 50px;
     padding-bottom: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer__four__1{
     display: flex;
     gap: 20px;
     align-items: center;
     white-space: nowrap;
+
 }
 
 .footer__four__2 a{
