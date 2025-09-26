@@ -139,6 +139,7 @@ cursor: pointer;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    
 }
 
 .course-card__1{
@@ -220,7 +221,7 @@ border: 0px solid white;
 .pricing-cards{
     background-color: #F6F7F9;
     padding: 40px 100px 20px 100px;
-    margin: 0;
+    margin: 10px;
 }
 .course-learners{
     display: flex;
