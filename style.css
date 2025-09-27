@@ -16,6 +16,7 @@ body{
     align-items: center;
     flex-grow: 1;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .navbar__s1{
     display: flex;
@@ -365,6 +366,7 @@ height: 600px;
     display: flex;
     gap: 40px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer__two{
     display: flex;
