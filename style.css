@@ -15,6 +15,7 @@ body{
     box-shadow: 0 2px 4px rgba(181, 185, 189, 0.6);
     align-items: center;
     flex-grow: 1;
+    flex-wrap: wrap;
 }
 .navbar__s1{
     display: flex;
@@ -243,6 +244,9 @@ border: 0px solid white;
 background-color: #dbdce3;
     border-radius: 40px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .learener-dark{
 background-color: #2A2B3F;
