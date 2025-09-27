@@ -17,11 +17,12 @@ body{
     flex-grow: 1;
     flex-wrap: wrap;
     gap: 10px;
-}
+} 
 .navbar__s1{
     display: flex;
     gap: 10px;
     align-items: center;
+
 }
 .navbar__s1 span{
     font-size: 14px;
@@ -34,15 +35,24 @@ body{
     display: flex;
     border: 1px solid gray;
     border-radius: 30px;
-    width:650px;
+    width:100%;
+    max-width: 650px;
+    min-width: 250px;
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    flex: 1;
 
+}
+.navbar__s2 i {
+  flex-shrink: 0; 
 }
 .navbar__s2 input{
     font-size: 16px;
     border: none;
+    min-width: 0;
+    flex: 1;
+    
 }
 .navbar__s2 input:focus{
     outline: none;
@@ -53,6 +63,7 @@ body{
     color: gray;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .navbar__s3 p{
@@ -152,7 +163,6 @@ cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0px 4px rgba(121, 120, 120, 0.5);
     margin-top: 30px;
-    height: 300px;
 
 }
 .course-card__1 img{
@@ -459,12 +469,15 @@ font-size: 20px;
     padding-bottom: 20px;
     align-items: center;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
+
 .footer__four__1{
     display: flex;
     gap: 20px;
     align-items: center;
     white-space: nowrap;
+    flex-wrap: wrap;
 
 }
 
