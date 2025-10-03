@@ -135,16 +135,16 @@ cursor: pointer;
 .advert__sale-image{
     width: 100%;
 box-sizing: border-box;
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 8%;
+padding-right: 8%;
 
 }
 .advert__sale-image img{
  width: 100%;
 }
 .advert__recommended{
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 8%;
+padding-right: 8%;
 }
 .advert__recommended h1{
     margin-bottom: 1px;
@@ -163,7 +163,7 @@ padding-right: 10%;
 }
 
 .course-card__1{
-    width: 28%;
+    width: 25%;
     padding: 15px;
     border: none;
     border: 0px solid black;
@@ -289,8 +289,9 @@ background-color: #2A2B3F;
 .course-price-detail__1{
     border: 1px solid white;
         box-shadow: 0 1px 4px rgba(150, 148, 148, 0.5);
-        width: 23%;
+        width: 24%;
         border-radius: 10px;
+        height: fit-content;
 
 }
 .course-price-detail__1 img{
@@ -595,6 +596,21 @@ padding-bottom: 30px;
     }
     .course-price-detail__1{
         width: 100%;
+    }
+    .footer__two{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__two a{
+        display: none;
+    }
+    .footer__two__1{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__two__2{
+        display: flex;
+        flex-direction: column;
     }
     
 }
