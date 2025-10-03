@@ -5,7 +5,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 100px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .navbar{
     padding: 10px 20px 10px 25px;
@@ -125,18 +125,26 @@ cursor: pointer;
 cursor: pointer;
 }
 .advert{
- padding-left: 90px;
-    padding-right: 90px;
+ 
     padding-top: 3px;
-
+    
     
 }
 
-.advert__sale-image img{
+
+.advert__sale-image{
     width: 100%;
+box-sizing: border-box;
+padding-left: 10%;
+padding-right: 10%;
+
+}
+.advert__sale-image img{
+ width: 100%;
 }
 .advert__recommended{
-
+padding-left: 10%;
+padding-right: 10%;
 }
 .advert__recommended h1{
     margin-bottom: 1px;
@@ -150,11 +158,12 @@ cursor: pointer;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    flex-grow: 1;
     
 }
 
 .course-card__1{
-    width: 380px;
+    width: 28%;
     padding: 15px;
     border: none;
     border: 0px solid black;
@@ -236,12 +245,12 @@ border: 0px solid white;
     flex-wrap: wrap;
     
 }
-.course-learners h3{
+.course-learners h4{
     padding-bottom: 3px;
     
 } 
 .course-learners p{
-    
+    font-size: 12px;
 } 
 .learener{
 background-color: #dbdce3;
@@ -274,12 +283,13 @@ background-color: #2A2B3F;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    flex-grow: 1;
 
 }
 .course-price-detail__1{
     border: 1px solid white;
         box-shadow: 0 1px 4px rgba(150, 148, 148, 0.5);
-        width: 312px;
+        width: 23%;
         border-radius: 10px;
 
 }
@@ -329,7 +339,7 @@ background-color: #2A2B3F;
 
     
 .skill-trend__left{
-    width: 30%;
+    width: 25%;
     padding-left: 10%;
 
 }
@@ -341,7 +351,7 @@ background-color: #2A2B3F;
     line-height: 25px;
 }
 .skill-trend__right{
-    width: 70%;
+    width: 65%;
 }
 .skill-trend__right img{
     width: 100%;
@@ -500,6 +510,39 @@ padding-bottom: 30px;
 
 
 /* Media Query */
+@media screen and (max-width:800px) {
+    body{
+        font-size: 14px;
+    }
+    .course-price-detail__1{
+        width: 100%;
+    }
+     .course-names,.learener, .learener-dark, .learener-end{
+        display: none;
+    }
+    .skill-trend{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-trend__left{
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .skill-trend__left h3{
+        display: inline-block;
+        width: auto;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 10%;
+    }
+    .skill-trend__right{
+        width: 100%;
+        order: -1;
+    }
+}
 
 @media screen and (max-width:600px) {
     body{
@@ -544,6 +587,14 @@ padding-bottom: 30px;
         order: -1;
     }
     
-
+    .course-card__1{
+        width: 100%;
+    }
+    .advert__sale-image{
+        padding: 0%;
+    }
+    .course-price-detail__1{
+        width: 100%;
+    }
     
 }
